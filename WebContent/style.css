@@ -1,0 +1,80 @@
+body {
+    background-color: #fff;
+}
+
+.navbar {
+	margin-bottom: 17px;
+	background-color:#8964BE;
+	
+}
+
+.doWhite {
+    color: #fff;
+}
+
+.doWhite:hover {
+    color:#8964BE;
+    transition: 500ms;
+    background-color: #fff;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #ffffff;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+@media only screen and (min-width: 600px) {
+	.carousel-caption {
+		font-size: 25px;
+	}
+	
+}
+
+@media only screen and (max-width: 320px) {
+	 .carousel-caption {
+		font-size: 15px;	
+}
+
+}
+
+.item {
+	max-height: 550px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+ul{
+	list-style-type: none;
+}
+
+.bottomMargin {
+	margin:10px;
+}
+.listHead {
+	font-size: 30px;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+	border-top: 16px solid #8964BE;
+ 	border-bottom: 16px solid #8964BE;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+    margin-top: 220px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
